@@ -6,7 +6,6 @@
         if (darkmode) {
             document.body.classList.remove('darkmode')
             document.cookie = `darkmode=; Path=/; Max-Age=0;`
-            console.log(document.cookie)
         } else {
             document.body.classList.add('darkmode')
             document.cookie = 'darkmode=1; Path=/;'

@@ -113,3 +113,9 @@ body.darkmode {
         border-color: @darkmode-border-color;
     }
 }
+
+// Exclude filter from Timeless skin's position: fixed component.
+// https://github.com/danneu/MediaWiki-DarkMode/issues/1
+body.skin-timeless.darkmode .mw-header-container {
+    filter: none;
+}
